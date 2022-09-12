@@ -35,7 +35,7 @@ h1{
 }
 
 .azzurro{
-    color:rgb(0, 162, 255) 
+    color:rgb(0, 162, 255);
 }
 
 .grigio{
@@ -59,4 +59,46 @@ ul{
 
 .yellow-bg{
     background-color: yellow;
+}
+
+table{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: left;
+    border-collapse: collapse;
+    
+}
+
+th{
+    background-color: rgb(0, 162, 255);
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(195, 234, 247);
+}
+
+.cell-padding{
+    padding-right: 250px;
+    
+}
+
+.additional{
+    font-size: 20px;
+    color: grey;
+
+
+}
+
+.extra{
+    margin-top: 10px;
+    width: 20%;
+    position: relative;
+}
+
+.little-title{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
 }
